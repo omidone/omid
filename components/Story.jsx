@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Story() {
+function Story({}) {
   return (
     <div>Story</div>
   )
