@@ -1,9 +1,6 @@
 import Image from "next/image"
 
 
-
-
-
 function Header() {
   return (
     // left navbar
