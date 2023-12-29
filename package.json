@@ -9,9 +9,12 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@fortawesome/free-brands-svg-icons": "^6.5.1",
+    "@fortawesome/free-regular-svg-icons": "^6.5.1",
+    "@fortawesome/free-solid-svg-icons": "^6.5.1",
     "@heroicons/react": "^2.1.1",
     "eslint-plugin-import": "^2.29.1",
-    "next": "^14.0.5-canary.25",
+    "next": "^14.0.4",
     "react": "^18",
     "react-dom": "^18"
   },

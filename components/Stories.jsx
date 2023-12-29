@@ -1,7 +1,7 @@
 
 import { faker } from '@faker-js/faker';
 import { useState, useEffect } from 'react';
-import {Story} from './Story.jsx'
+import Story from './Story';
 
 export default function Stories() {
     const [suggestions, setSuggestions] = useState([]);
@@ -18,10 +18,11 @@ export default function Stories() {
    
 
     return (
-        <div>
+        <div className='flex pt-5 p-5 overflow-x-scroll scrollbar-thumb-black space-x-2 scrollbar-thin bg-white sticky rounded-sm border-gray-300 cursor-pointer'>
           {suggestions.map(( profile) =>{
+            return(
             <Story key={profile.id} img={profile.avatar} username={profile.username}/>
-          })}
+         ) })}
 
         </div>);
 
